@@ -15,3 +15,4 @@ The type of file
 symlink
 Copies html files
 moves all uppercase files
+Delete files with special characters
