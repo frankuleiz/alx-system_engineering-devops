@@ -7,3 +7,4 @@ adds execute permission to owner of hello
 adds multiple permissions
 adds ececution permissions toeverybody
 User has all permissions
+Sets the mode to John Doe
