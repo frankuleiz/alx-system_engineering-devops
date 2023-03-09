@@ -5,3 +5,4 @@ Changing the owner to user betty
 Creates an empty file
 adds execute permission to owner of hello
 adds multiple permissions
+adds ececution permissions toeverybody
