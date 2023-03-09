@@ -14,3 +14,4 @@ List all files
 The type of file
 symlink
 Copies html files
+moves all uppercase files
