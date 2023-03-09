@@ -6,3 +6,4 @@ Display current directory contents, including hidden files (starting with .). Us
 Displays content of the current directory in long,digits and hidden
 Create a script that creates a directory named my first directory in the /tmp/ directory
 Move the file betty
+Delete file betty
