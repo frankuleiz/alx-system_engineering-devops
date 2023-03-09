@@ -8,3 +8,4 @@ Create a script that creates a directory named my first directory in the /tmp/ d
 Move the file betty
 Delete file betty
 Delete My first directory
+Go back to the previous directory
