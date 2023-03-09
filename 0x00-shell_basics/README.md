@@ -12,3 +12,4 @@ Go back to the previous directory
 Listing
 List all files
 The type of file
+symlink
