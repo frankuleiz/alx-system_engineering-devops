@@ -10,3 +10,4 @@ Delete file betty
 Delete My first directory
 Go back to the previous directory
 Listing
+List all files
