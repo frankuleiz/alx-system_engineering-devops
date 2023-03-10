@@ -8,3 +8,4 @@ adds multiple permissions
 adds ececution permissions toeverybody
 User has all permissions
 Sets the mode to John Doe
+sets the mode as the same
