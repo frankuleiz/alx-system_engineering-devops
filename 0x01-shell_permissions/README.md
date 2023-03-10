@@ -13,3 +13,4 @@ adding permission to directories
 add permissions to subdirctories
 create one more directory
 changes the group owner
+changes the owner and group owner
