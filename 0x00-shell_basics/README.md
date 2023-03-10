@@ -18,3 +18,4 @@ moves all uppercase files
 Delete files with special characters
 Create directories in multiples
 Sets the mode as the same
+Lists files in a series
