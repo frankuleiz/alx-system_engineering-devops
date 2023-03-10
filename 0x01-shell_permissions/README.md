@@ -11,3 +11,4 @@ Sets the mode to John Doe
 sets the mode as the same
 adding permission to directories
 add permissions to subdirctories
+create one more directory
