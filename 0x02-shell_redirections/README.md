@@ -1,1 +1,1 @@
-Writes into the file of the result command
+Duplicates the last line of the file
