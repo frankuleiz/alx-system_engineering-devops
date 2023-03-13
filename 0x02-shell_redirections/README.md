@@ -7,3 +7,4 @@ Displays the pattern bin in /etc/passwd
 Display the pattern root and 3 lines
 Displays "bin" pattern ommission
 Displays lines starting with a letter
+Replaces all characters
