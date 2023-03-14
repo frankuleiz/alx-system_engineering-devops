@@ -6,3 +6,4 @@ Creates enviromental variables
 Lists all local,environmental variables and functions
 Creates a new local variable
 Creates a new global variable
+Creates a script with addition
