@@ -12,3 +12,4 @@ Creates to the power of
 Converts the base of a number
 Prints all possible combinations of two letters
 Prints a number with two decimalplaces
+Converts from base 10 to base 16
