@@ -11,3 +11,4 @@ Replaces all characters
 Removes c and C
 Reverses the input
 Display all users sorted by uers
+Finds all empty files
