@@ -8,3 +8,4 @@ Creates a new local variable
 Creates a new global variable
 Creates a script with addition
 Creates division
+Creates to the power of
