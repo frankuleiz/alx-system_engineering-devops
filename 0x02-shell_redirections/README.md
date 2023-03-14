@@ -9,3 +9,4 @@ Displays "bin" pattern ommission
 Displays lines starting with a letter
 Replaces all characters
 Removes c and C
+Reverses the input
