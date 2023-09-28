@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#A script that displays content of a file in list format.
+
+files=$(ls)
+for file in $files;
+do
+    echo "$files" | cut -d"-" -f2
+done
