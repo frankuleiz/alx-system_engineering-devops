@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#A script that displays 1 to 20 and displays a string.
+
+i="0"
+while [ $i -le 20 ]
+do
+    echo $i
+    i=$((i+1))
+
+    case ${i,,} in
+        4)
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "bad luck from Italy"
+            ;;
+
+        esac
+done
