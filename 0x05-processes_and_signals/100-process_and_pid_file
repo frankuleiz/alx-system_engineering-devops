@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#A script that runs a number of processes
+
+echo "$$" > /var/run/myscript.pid
+
+delete(){
+    rm -f /var/run/myscript.pid
+    echo "I hate the kill command"
+    exit
+}
+
+while true;
+do
+    echo "To infinity and beyond"
+    sleep 2
+    trap "echo 'I hate the kill command'" SIGTERM
+    trap "echo 'Y U no love me'" SIGINT
+    trap "echo 'delete'" SIGQUIT SIGTERM
+done
