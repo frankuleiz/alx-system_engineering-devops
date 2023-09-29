@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# A script that displays infinite loop and recives a SIGTERM
+
+trap "echo I am invincible!!!" SIGTERM
+
+while true;
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
+
