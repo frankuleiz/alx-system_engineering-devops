@@ -6,6 +6,9 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 
+# Firewall setting: Allow Nginx to serve on HTTP
+ufw allow 'Nginx HTTP'
+
 # Create a html file
 echo "Hello world" | sudo tee /var/www/index.html
 
