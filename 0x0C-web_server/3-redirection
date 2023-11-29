@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# The scripts installs ngnix on the server
+# It configures Ngnix server so that /redirect_me is
+
+#updates the package and run installation of nginx
+sudo apt-get update
+sudo apt-get -y install nginx
+
+# Create a html file
+echo "Hello world" | sudo tee /var/www/index.html
+
+
+sudo sed -i '37i\rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+
+#reload the server tofor the new configurations to take place
+sudo service nginx restart
