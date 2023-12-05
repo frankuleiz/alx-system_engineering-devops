@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
-#The script configures a new ubuntu server that contains a custom HTTP header
+# The scripts installs ngnix on the server
+# It configures Ngnix server so that /redirect_me is
 
+#updates the package and run installation of nginx
 sudo apt-get update
 sudo apt-get -y install nginx
-sudo sed -i "/server_name _;/a \\\n\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+
+# Create a html file
+echo "Hello world" | sudo tee /var/www/index.html
+
+
+sudo sed -i '37i\rewrite ^i/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+sed -i '/listen 80 default_server;/a add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+
+#reload the server tofor the new configurations to take place
 sudo service nginx restart
