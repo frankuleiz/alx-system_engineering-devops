@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """The script returns to-do list information of a given employee ID"""
-import jsom
+import json
 import requests
 import sys
 
