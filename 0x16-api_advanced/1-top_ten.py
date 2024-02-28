@@ -10,7 +10,7 @@ def top_ten(subreddit):
     import requests
 
     # Update the User-Agent to a unique and descriptive value
-    headers = {"User-Agent": "Your-Script-Name/1.0"}
+    headers = {"User-Agent": "1-top_ten/1.0"}
 
     url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
     sub_info = requests.get(url, headers=headers, allow_redirects=False)
