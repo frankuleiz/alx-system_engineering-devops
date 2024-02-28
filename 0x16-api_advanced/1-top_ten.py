@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module `1-top_ten`"""
 
+
 def top_ten(subreddit):
     """
     Returns the top 10 posts from a given subreddit
